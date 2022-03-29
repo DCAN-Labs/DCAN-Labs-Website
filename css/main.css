@@ -306,6 +306,10 @@ textarea, label {
   vertical-align: middle; }
   .page-home .overlay {
     background-color: rgba(255, 255, 255, 0.93); }
+  .page-home h1 {
+    font-size: 5em;
+    font-weight: 700;
+  }
 
 /* End of container */
 .hexagon-item {
