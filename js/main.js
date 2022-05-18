@@ -76,16 +76,16 @@
 		    },
 		    messages: {
 		        name: {
-		            required: "Write your name here"
+		            required: "Please include your name"
 		        },
 		        email: {
-		            required: "No email, no support"
+		            required: "Please include an email address"
 		        },
 		        subject: {
-		            required: "you have a reason to contact, write it here"
+		            required: "Please include a subject"
 		        },
 		        message: {
-		            required: "You have to write something to send this form"
+		            required: "Please include a message"
 		        }
 		    },
 		    submitHandler: function(form) {

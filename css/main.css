@@ -311,6 +311,15 @@ textarea, label {
     font-weight: 700;
   }
 
+.dcan-background {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle; }
+  .dcan-background .overlay {
+    background-color: rgba(255, 255, 255, 0.93); }
+  
+
 /* End of container */
 .hexagon-item {
   cursor: pointer;
