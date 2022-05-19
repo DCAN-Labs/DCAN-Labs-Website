@@ -1,0 +1,20 @@
+.gs_ico {
+    opacity: .55;
+    display: inline-block;
+    background: no-repeat url(../img/google_scholar.png);
+    background-size: 169px;
+    width: 21px;
+    height: 21px;
+}
+
+.scholar {
+    background-position: -69px -253px;
+}
+
+.linkedin {
+    background-position: -69px -299px;
+}
+
+.twitter {
+    background-position: -46px -299px;
+}

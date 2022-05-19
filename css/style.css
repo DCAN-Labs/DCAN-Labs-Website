@@ -242,7 +242,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   letter-spacing: 1px;
 }
 
-.overlay:before {
+/* .overlay:before {
   content: "";
   position: absolute;
   left: 0;
@@ -253,7 +253,7 @@ input[type="email"]:focus, input[type="password"]:focus, input[type="text"]:focu
   height: 100%;
   opacity: 0.9;
   background: #223a66;
-}
+} */
 
 .overly-2 {
   position: relative;
@@ -785,6 +785,10 @@ a:focus {
 .doctor-info li i {
   margin-right: 20px;
   color: #e12454;
+}
+
+.doctor-single {
+  padding: 0px;
 }
 
 .read-more {
