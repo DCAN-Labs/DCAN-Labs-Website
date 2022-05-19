@@ -18,3 +18,17 @@
 .twitter {
     background-position: -46px -299px;
 }
+
+.undergrad {
+    height: 255px;
+    width: 255px;
+}
+
+.no-img {
+    height: 255px;
+    width: 255px;
+    background: url(../static/UMN_logos2_WEB-08.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: center;
+}
