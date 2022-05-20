@@ -299,23 +299,24 @@ textarea, label {
 /*------------------------------------------------
     Home Page
 -------------------------------------------------*/
-.page-home {
+/* .page-home {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  vertical-align: middle; }
-  .page-home .overlay {
-    background-color: rgba(255, 255, 255, 0.93); }
+  vertical-align: middle; } */
+  /* .page-home .overlay {
+    background-color: rgba(255, 255, 255, 0.93); } */
   .page-home h1 {
     font-size: 5em;
     font-weight: 700;
   }
 
 .dcan-background {
-  background-position: center center;
+  background-position: top 10px center;
   background-repeat: no-repeat;
-  background-size: cover;
-  vertical-align: middle; }
+  background-size: auto 90%;
+  background-attachment: fixed;
+}
   .dcan-background .overlay {
     background-color: rgba(255, 255, 255, 0.93); }
   
