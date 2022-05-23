@@ -1,9 +1,3 @@
-var nous = d3.select("#nous");
-var github = d3.select("#github");
-var docker = d3.select("#docker");
-
-var chosenItem = "none";
-
 d3.selectAll(".software-item").on("click", function(){
     var item = d3.select(this);
     var id = d3.select(this).attr('id');
