@@ -59,12 +59,15 @@ body{
     display: flex;
     flex-direction: column;
     opacity: 0;
+    z-index: -5;
     transition-duration: 0.7s;
-    width: 50vw;
+    width: 70vw;
     padding: 1.2em;
-    background-color: white;
+    background-color:rgb(250, 250, 250);
     box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
     border-radius: 20px;
+    max-height:calc(85vh - 250px);
+    overflow-y: auto;
 }
 
 .software-info-active{
@@ -75,4 +78,8 @@ body{
 
 .software-info a{
     color: blue;
+}
+
+.page-title{
+    padding-top: 10vh;
 }

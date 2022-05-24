@@ -16,7 +16,7 @@ document.onclick = function (e) {
     var reset = false;
     if (eventTarget.attr('class') == null) {
         reset = true;
-    } else if (!eventTarget.attr('class').includes("software-image")) {
+    } else if (!(eventTarget.attr('class').includes("software-image") || eventTarget.attr('class').includes("software-info"))) {
         reset = true;
     }
     if (reset) {

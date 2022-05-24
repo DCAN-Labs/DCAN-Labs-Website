@@ -8,6 +8,10 @@ body {
   line-height: 30px;
   color: black; }
 
+main {
+  height: 100vh;
+}
+
 a {
   color: inherit;
   -webkit-transition: all 0.3s ease 0s;
@@ -491,49 +495,9 @@ textarea, label {
   .hex-content:hover {
     color: #fff; }
 
-/*------------------------------------------------
-    Welcome Page
--------------------------------------------------*/
-.author-image-large {
-  position: absolute;
-  right: 0;
-  top: 0; }
-  .author-image-large img {
-    height: -webkit-calc(100vh - 4px);
-    height: -moz-calc(100vh - 4px);
-    height: calc(100vh - 4px); }
-
-/*------------------------------------------------
-    About Page
--------------------------------------------------*/
-.about-author {
-  margin-bottom: 23px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  -moz-align-items: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flexbox;
-  display: flex; }
-  .about-author .author-thumb {
-    background-color: #fff;
-    border: 5px solid #1e2530;
-    margin-right: 30px;
-    padding: 5px; }
-    .about-author .author-thumb img {
-      border: 2px solid #1e2530;
-      width: 145px; }
-  .about-author .author-desc p {
-    color: #1e2530;
-    font-family: "Open Sans", sans-serif;
-    letter-spacing: 1px;
-    margin-bottom: 4px;
-    text-transform: uppercase; }
-  .about-author .author-desc b {
-    font-family: "Open Sans", sans-serif; }
+.page-about .page-title{
+  padding-top: 10vh;
+}
 
 .progress {
   background-color: #1e2530;
@@ -1062,6 +1026,19 @@ textarea, label {
   .pt-table.desktop-768 .pt-tablecell .page-nav {
     bottom: 40px; }
 
+.undergrad h3{
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.undergrad .page-title{
+  padding-top: 10vh;
+}
+
+.undergrad{
+  padding-bottom: 10vh;
+}
+
 /* =================================== */
 /*  Color Switcher
 /* =================================== */
@@ -1189,6 +1166,11 @@ textarea, label {
 /*------------------------------------------------
 	Responsive Media Queries
 -------------------------------------------------*/
+@media (max-width: 1050px) {
+  .dcan-background{
+    background-size: 90%;
+  }
+}
 /*============================================================
 	Macbook pro 13 inch
 ==============================================================*/
