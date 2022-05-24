@@ -788,7 +788,11 @@ a:focus {
 }
 
 .doctor-single {
-  padding: 0px;
+  padding: 0px 0px 15vh 0px;
+}
+
+.doctor-details a{
+  text-decoration: underline;
 }
 
 .read-more {
