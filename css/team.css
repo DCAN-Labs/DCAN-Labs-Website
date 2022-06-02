@@ -50,3 +50,12 @@
     width: 21px;
     height: 21px;
 }
+
+.orcid {
+    opacity: .55;
+    display: inline-block;
+    background: no-repeat url(../img/orcid.png);
+    background-size: 21px;
+    width: 21px;
+    height: 21px;
+}
