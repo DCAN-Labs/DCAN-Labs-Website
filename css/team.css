@@ -32,3 +32,21 @@
     background-size: 300px 300px;
     background-position: center center;
 }
+
+.nih {
+    opacity: .55;
+    display: inline-block;
+    background: no-repeat url(../img/NIH-icon.png);
+    background-size: 21px;
+    width: 21px;
+    height: 21px;
+}
+
+.oscar {
+    opacity: .55;
+    display: inline-block;
+    background: no-repeat url(../img/oscar-favicon.png);
+    background-size: 21px;
+    width: 21px;
+    height: 21px;
+}
